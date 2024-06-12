@@ -1,0 +1,25 @@
+.inner-container{
+    gap: 1.5rem;
+    background-image: linear-gradient(218deg, rgba(187, 102, 224, 2.8) -2.84%, rgb(90, 0, 238) 105.79%);
+    padding: 2rem;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+
+.inner-container .primaryText{
+    color: white;
+    font-weight: 600;
+
+}
+
+.inner-container .secondaryText{
+    color: rgba(255, 255, 255, 0.587);
+}
+
+.inner-container .button{
+    background-image: linear-gradient(218deg, rgba(171, 136, 199, 0.8) -2.84%, rgb(98, 0, 255) 105.79%);
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
